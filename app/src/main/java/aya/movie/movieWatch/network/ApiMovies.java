@@ -1,7 +1,7 @@
-package ema.ematop.moviewatch.network;
+package aya.movie.movieWatch.network;
 
 
-import ema.ematop.moviewatch.pojo.MovieResponseModel;
+import aya.movie.movieWatch.pojo.MovieResponseModel;
 import io.reactivex.rxjava3.core.Observable;
 import io.reactivex.rxjava3.core.Single;
 import retrofit2.http.GET;

@@ -1,4 +1,4 @@
-package ema.ematop.moviewatch.ui;
+package aya.movie.movieWatch.ui;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -15,10 +15,10 @@ import com.bumptech.glide.Glide;
 import java.util.ArrayList;
 import java.util.List;
 
-import ema.ematop.moviewatch.R;
-import ema.ematop.moviewatch.databinding.VhMovieCardBinding;
-import ema.ematop.moviewatch.network.Constants;
-import ema.ematop.moviewatch.pojo.MovieModel;
+import aya.ematop.movieWatch.R;
+import aya.ematop.movieWatch.databinding.VhMovieCardBinding;
+import aya.movie.movieWatch.network.Constants;
+import aya.movie.movieWatch.pojo.MovieModel;
 
 public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieViewHolder> {
 
@@ -81,7 +81,6 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieViewHol
             textView =view.findViewById(R.id.tv_movie_title);
             imageView = view.findViewById(R.id.iv_image_movie);
             textView2 = view.findViewById(R.id.tv_vote_number);
-
             view.setOnClickListener(this);
 
         }

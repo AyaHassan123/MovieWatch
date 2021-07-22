@@ -1,4 +1,4 @@
-package ema.ematop.moviewatch.ui;
+package aya.movie.movieWatch.ui;
 
 import android.os.Bundle;
 
@@ -7,10 +7,10 @@ import androidx.databinding.DataBindingUtil;
 
 import com.bumptech.glide.Glide;
 
-import ema.ematop.moviewatch.R;
-import ema.ematop.moviewatch.databinding.ActivityDetailsBinding;
-import ema.ematop.moviewatch.network.Constants;
-import ema.ematop.moviewatch.pojo.MovieModel;
+import aya.ematop.movieWatch.R;
+import aya.ematop.movieWatch.databinding.ActivityDetailsBinding;
+import aya.movie.movieWatch.network.Constants;
+import aya.movie.movieWatch.pojo.MovieModel;
 
 public class DetailsActivity extends AppCompatActivity {
 

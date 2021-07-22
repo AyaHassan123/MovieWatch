@@ -1,4 +1,4 @@
-package ema.ematop.moviewatch.network;
+package aya.movie.movieWatch.network;
 
 import hu.akarnokd.rxjava3.retrofit.RxJava3CallAdapterFactory;
 import retrofit2.Retrofit;

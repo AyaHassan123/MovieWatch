@@ -1,4 +1,4 @@
-package ema.ematop.moviewatch.pojo;
+package aya.movie.movieWatch.pojo;
 
 import java.util.List;
 

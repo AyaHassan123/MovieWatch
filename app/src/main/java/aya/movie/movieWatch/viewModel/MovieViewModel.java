@@ -1,12 +1,12 @@
-package ema.ematop.moviewatch.viewModel;
+package aya.movie.movieWatch.viewModel;
 
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
 import java.util.List;
 
-import ema.ematop.moviewatch.pojo.MovieModel;
-import ema.ematop.moviewatch.repository.Repo;
+import aya.movie.movieWatch.pojo.MovieModel;
+import aya.movie.movieWatch.repository.Repo;
 
 public class MovieViewModel extends ViewModel {
 

@@ -1,4 +1,4 @@
-package ema.ematop.moviewatch.ui;
+package aya.movie.movieWatch.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -17,13 +17,11 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 
 import java.util.List;
 
-import ema.ematop.moviewatch.R;
-import ema.ematop.moviewatch.databinding.ActivityMainBinding;
-import ema.ematop.moviewatch.network.Constants;
-import ema.ematop.moviewatch.pojo.MovieModel;
-import ema.ematop.moviewatch.viewModel.MovieViewModel;
-
-import static ema.ematop.moviewatch.network.Constants.API_KEY;
+import aya.ematop.movieWatch.R;
+import aya.ematop.movieWatch.databinding.ActivityMainBinding;
+import aya.movie.movieWatch.network.Constants;
+import aya.movie.movieWatch.pojo.MovieModel;
+import aya.movie.movieWatch.viewModel.MovieViewModel;
 
 public class MainActivity extends AppCompatActivity implements MovieAdapter.OnMovieClickListener {
 
@@ -61,7 +59,7 @@ public class MainActivity extends AppCompatActivity implements MovieAdapter.OnMo
 
     //getMovies
     private void viewMovies(String genre){
-        movieViewModel.getMovies(genre, API_KEY);
+        movieViewModel.getMovies(genre, Constants.API_KEY);
         movieViewModel.movieList.observe(this, new Observer<List<MovieModel>>() {
             @Override
             public void onChanged(List<MovieModel> movieModels) {
@@ -80,7 +78,7 @@ public class MainActivity extends AppCompatActivity implements MovieAdapter.OnMo
 
     //search for Movies
     private void searchMovie(String query){
-        movieViewModel.searchMovie(API_KEY, query);
+        movieViewModel.searchMovie(Constants.API_KEY, query);
         movieViewModel.searchMovieList.observe(this, new Observer<List<MovieModel>>() {
             @Override
             public void onChanged(List<MovieModel> movieModels) {

@@ -1,4 +1,4 @@
-package ema.ematop.moviewatch;
+package aya.ematop.movieWatch;
 
 import org.junit.Test;
 

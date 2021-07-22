@@ -1,12 +1,12 @@
-package ema.ematop.moviewatch.repository;
+package aya.movie.movieWatch.repository;
 
 import androidx.lifecycle.MutableLiveData;
 
 import java.util.List;
 
-import ema.ematop.moviewatch.network.RetrofitModule;
-import ema.ematop.moviewatch.pojo.MovieModel;
-import ema.ematop.moviewatch.pojo.MovieResponseModel;
+import aya.movie.movieWatch.network.RetrofitModule;
+import aya.movie.movieWatch.pojo.MovieModel;
+import aya.movie.movieWatch.pojo.MovieResponseModel;
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers;
 import io.reactivex.rxjava3.annotations.NonNull;
 import io.reactivex.rxjava3.core.Observer;

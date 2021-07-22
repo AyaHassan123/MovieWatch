@@ -1,4 +1,4 @@
-package ema.ematop.moviewatch.pojo;
+package aya.movie.movieWatch.pojo;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:orientation="vertical"
+        android:background="@color/Gray_900"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.MainActivity">
+
+
+        <SearchView
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:background="@drawable/bg_white_rounded"
+            android:layout_margin="14dp"
+            android:layout_height="70dp"
+            android:id="@+id/sv_search_view"
+            android:paddingLeft="5dp"
+            app:queryHint="Search"
+            />
+
+        <TextView
+            android:id="@+id/titlemov"
+            android:text="@string/popular_movies"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginStart="18dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rv_movie" />
+        </ScrollView>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</layout>

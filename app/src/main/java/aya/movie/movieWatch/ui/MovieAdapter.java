@@ -28,7 +28,6 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieViewHol
 
     public MovieAdapter(Context context ) {
         this.context = context;
-        this.listener = listener;
     }
 
     public void onSetClickListner(OnMovieClickListener listener){
